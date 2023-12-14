@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- GRUPO ADMINISTRADOR DE EMPRESAS -->
+        <record id="grupo_administrador" model="res.groups">
+            <field name="name">Administrador de empresas</field>
+            <field name="comment">Perfil administrador</field>
+        </record>
+
+        <!-- GRUPO JEFE DE PROYECTOS DE EMPRESAS -->
+        <record id="grupo_jefe_proyectos" model="res.groups">
+            <field name="name">Jefe de proyectos empresas</field>
+            <field name="comment">Perfil de jefe de proyectos</field>
+        </record>
+
+        <!-- GRUPO ANALISTA DE EMPRESAS -->
+        <record id="grupo_analista" model="res.groups">
+            <field name="name">Analista empresas</field>
+            <field name="comment">Perfil analista</field>
+        </record>
+
+        <!-- GRUPO PROGRAMADOR DE EMPRESAS -->
+        <record id="grupo_programador" model="res.groups">
+            <field name="name">Programador empresas</field>
+            <field name="comment">Perfil programador</field>
+        </record>
+    </data>
+</odoo> 
